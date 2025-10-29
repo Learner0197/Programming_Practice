@@ -1,0 +1,57 @@
+{
+  "Target": "WeekTotal",
+  "LR": {
+    "Train R2": 0.23481322615575084,
+    "Test R2": 0.2396191607209176,
+    "Test RMSE": 2810702.8318580044,
+    "Test MAE": 1195.7844588895705
+  },
+  "RF": {
+    "Train R2": 0.8737690875515638,
+    "Test R2": 0.17169643257669676,
+    "Test RMSE": 3061775.1820285926,
+    "Test MAE": 1167.2214459879751
+  },
+  "TopFeatures": [
+    {
+      "Feature": "ship-postal-code",
+      "Importance": 0.357750827283456
+    },
+    {
+      "Feature": "Amount",
+      "Importance": 0.2643521453746167
+    },
+    {
+      "Feature": "Date_Other",
+      "Importance": 0.15223458555044322
+    },
+    {
+      "Feature": "Status_Pending",
+      "Importance": 0.032925632364051584
+    },
+    {
+      "Feature": "Status_Shipped - Picked Up",
+      "Importance": 0.02421518617614223
+    },
+    {
+      "Feature": "Status_Pending - Waiting for Pick Up",
+      "Importance": 0.016489711510619842
+    },
+    {
+      "Feature": "ship-city_Other",
+      "Importance": 0.01487899575196629
+    },
+    {
+      "Feature": "ship-state_Other",
+      "Importance": 0.01021078372851225
+    },
+    {
+      "Feature": "Status_Cancelled",
+      "Importance": 0.00907051096249121
+    },
+    {
+      "Feature": "Status_Shipped",
+      "Importance": 0.007042337794645599
+    }
+  ]
+}
